@@ -3,9 +3,12 @@
   box-sizing:border-box;
 }
 
+body{
+  font-size: 13px;
+}
 
 .form-container{
-  width: 400px;
+  width: 350px;
   margin: 0 auto;
 }
 
@@ -87,12 +90,18 @@ input[type="checkbox"]{
 
 .divider{
   margin-bottom: -20px;
-  color: lightgray;
   position:relative;
   z-index: -1;
 }
 
+hr{
+  border: 1px solid;
+  border-color: #CCC;
+}
+
 h5{
+  color: #999;
+  font-weight: normal;
   background-color: white;
   padding: 0 5px 0 5px;
   display:inline;
