@@ -7,8 +7,8 @@
 .form-container{
   width: 400px;
   margin: 0 auto;
-
 }
+
 .logo{
   width: 125px;
   margin: 0 auto;
@@ -20,7 +20,11 @@ fieldset{
   border-radius: 3px;
 }
 
-div.password, div.email, div.submit, div.signup, div.remember {
+h1{
+    font-weight: normal;
+}
+
+.header, .password, .email, .submit, .signup, .remember {
   margin: 20px;
 }
 
@@ -36,6 +40,7 @@ label{
   border-radius: 5px;
   height: 30px;
 }
+
 .email input:focus, .password input:focus{
   border-color: #E77600;
   box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
@@ -44,6 +49,16 @@ label{
 .label-float{
   display: inline-block;
   float: right;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 102, 192);
+}
+
+a:hover{
+  color:#EE8F17;
+  text-decoration: underline;
 }
 
 input[type="checkbox"]{
@@ -57,18 +72,36 @@ input[type="checkbox"]{
 .btn{
   height:35px;
   border-radius: 7px;
-  border: 1px solid
+  border: 1px solid;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .btn:hover{
   box-shadow: inset 0 0 30px 30px rgba(0, 0, 0, 0.05);
 }
 
-.msg{
+.notice{
     margin-top: 20px;
 }
 
-hr{ margin-top: -10px;}
+.divider{
+  margin-bottom: -20px;
+  color: lightgray;
+  position:relative;
+  z-index: -1;
+}
+
+h5{
+  background-color: white;
+  padding: 0 5px 0 5px;
+  display:inline;
+  z-index: 0;
+}
+
+.new-msg{
+  margin-bottom: 5px;
+}
 
 .submit .btn {
   background: linear-gradient(to bottom, #F9E7BA, #EFBB38);
